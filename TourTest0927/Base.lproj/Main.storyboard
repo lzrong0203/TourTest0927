@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TourTest0927" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="1380"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wUS-CJ-eLz">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="128"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="O6B-DW-51A"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWQ-YQ-UDa">
+                                <rect key="frame" x="0.0" y="128" width="390" height="1218"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4QN-MA-ubK">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1200"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDH-yR-drF">
+                                                <rect key="frame" x="21" y="41" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="348" id="Iz8-ym-hfR"/>
+                                                    <constraint firstAttribute="height" constant="140" id="PuM-60-CDa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="101" backgroundImage="101"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jWQ-l0-DKi">
+                                                <rect key="frame" x="21" y="222" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="348" id="XP3-Dp-YBl"/>
+                                                    <constraint firstAttribute="height" constant="140" id="ecr-sc-8Jm"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" image="公共"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhu-fz-euQ">
+                                                <rect key="frame" x="21" y="403" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="6Hg-92-uls"/>
+                                                    <constraint firstAttribute="width" constant="348" id="hDI-lL-R62"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" image="單車"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5t-po-GyG">
+                                                <rect key="frame" x="21" y="584" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="140" id="58b-i4-o7i"/>
+                                                    <constraint firstAttribute="width" constant="348" id="sAc-mi-E8c"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" image="宗教"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QS5-0V-SGm">
+                                                <rect key="frame" x="21" y="765" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="348" id="ozK-qi-O7o"/>
+                                                    <constraint firstAttribute="height" constant="140" id="zLM-51-qjs"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" image="歷史"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCI-JQ-GZ5">
+                                                <rect key="frame" x="21" y="946" width="348" height="140"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="348" id="1kh-82-E7b"/>
+                                                    <constraint firstAttribute="height" constant="140" id="TCn-iJ-af2"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                                    <backgroundConfiguration key="background" image="藍色"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                        <constraints>
+                                            <constraint firstItem="FDH-yR-drF" firstAttribute="top" secondItem="4QN-MA-ubK" secondAttribute="top" constant="41" id="4EX-ZT-wHL"/>
+                                            <constraint firstAttribute="height" constant="1200" id="7ES-1t-AHB"/>
+                                            <constraint firstItem="NCI-JQ-GZ5" firstAttribute="top" secondItem="QS5-0V-SGm" secondAttribute="bottom" constant="41" id="7vB-Zs-c2F"/>
+                                            <constraint firstItem="QS5-0V-SGm" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="GCM-nH-lAy"/>
+                                            <constraint firstItem="QS5-0V-SGm" firstAttribute="top" secondItem="n5t-po-GyG" secondAttribute="bottom" constant="41" id="O5V-Ob-paK"/>
+                                            <constraint firstItem="jhu-fz-euQ" firstAttribute="top" secondItem="jWQ-l0-DKi" secondAttribute="bottom" constant="41" id="Xdi-kh-xoe"/>
+                                            <constraint firstItem="NCI-JQ-GZ5" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="aSN-ZV-5zZ"/>
+                                            <constraint firstItem="jhu-fz-euQ" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="mUi-9g-p5B"/>
+                                            <constraint firstItem="FDH-yR-drF" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="pYx-Wh-YUk"/>
+                                            <constraint firstItem="n5t-po-GyG" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="qSi-ww-Ie2"/>
+                                            <constraint firstItem="jWQ-l0-DKi" firstAttribute="centerX" secondItem="4QN-MA-ubK" secondAttribute="centerX" id="thL-d1-5Ax"/>
+                                            <constraint firstItem="jWQ-l0-DKi" firstAttribute="top" secondItem="FDH-yR-drF" secondAttribute="bottom" constant="41" id="uHv-2n-vwZ"/>
+                                            <constraint firstItem="n5t-po-GyG" firstAttribute="top" secondItem="jhu-fz-euQ" secondAttribute="bottom" constant="41" id="znW-xg-7ky"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4QN-MA-ubK" firstAttribute="leading" secondItem="cWQ-YQ-UDa" secondAttribute="leading" id="1JQ-c8-wrf"/>
+                                    <constraint firstItem="4QN-MA-ubK" firstAttribute="top" secondItem="cWQ-YQ-UDa" secondAttribute="top" id="Xqf-rK-Dya"/>
+                                    <constraint firstItem="4QN-MA-ubK" firstAttribute="width" secondItem="cWQ-YQ-UDa" secondAttribute="width" id="jEb-Sv-VOB"/>
+                                    <constraint firstAttribute="trailing" secondItem="4QN-MA-ubK" secondAttribute="trailing" id="xg1-la-afG"/>
+                                    <constraint firstAttribute="bottom" secondItem="4QN-MA-ubK" secondAttribute="bottom" id="zp2-GS-LRL"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cWQ-YQ-UDa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="2E7-4x-vEk"/>
+                            <constraint firstItem="wUS-CJ-eLz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="5EG-eD-yHC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cWQ-YQ-UDa" secondAttribute="trailing" id="An5-GC-w40"/>
+                            <constraint firstItem="wUS-CJ-eLz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ZaR-xq-9gP"/>
+                            <constraint firstItem="wUS-CJ-eLz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="d88-od-BEu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cWQ-YQ-UDa" secondAttribute="bottom" id="kvT-H5-27e"/>
+                            <constraint firstItem="cWQ-YQ-UDa" firstAttribute="top" secondItem="wUS-CJ-eLz" secondAttribute="bottom" id="yW7-Xc-Ndr"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="390" height="1380"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="101" width="348" height="140"/>
+        <image name="公共" width="348" height="140"/>
+        <image name="單車" width="348" height="140"/>
+        <image name="宗教" width="348" height="140"/>
+        <image name="歷史" width="348" height="140"/>
+        <image name="藍色" width="348" height="140"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
